@@ -1,0 +1,55 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <div class="nav-container">
+                <h3><a href="index.html">BunnyFlicks🐰</a></h3>
+                <div class="link-wrapper">
+                    <a href="search.html">Search</a>
+                    <a href="watchlist.html">My Watchlist</a>
+                </div>
+            </div>
+        </nav>
+        <header class="search-header">
+            <div class="container-header">
+                <h1>Navigate Effortlessly</h1><p> Our user-friendly interface ensures a smooth and intuitive navigation experience. Say goodbye to cluttered websites; BunnyFlicks prioritizes simplicity and efficiency.</p>
+                <div class="input-container">
+                    <i class="fa fa-search"></i>
+                    <form id="search-movie-form">
+                        <input placeholder="search for a movie" type="search" id="title" name="title">
+                        <button>Search</button>
+                    </form>
+                </div>
+            </div>
+        </header>
+        <main>
+            
+        
+          
+            <!-- Trending now with GID -->
+            <div class="intro-trending-section">
+                <h2>Start exploring</h2>
+            </div>
+            <div id="showing-loading-icons">
+                <div id="waiting-svg">
+                    <img src="images/film.png">
+                </div>
+            </div>
+            <section id="results-main-flex-section" class="main-flex-section hidden">
+                <container id="search-results-grid" class="grid-container">
+                </container>
+                <container id="search-showcase-container" class="showcase-container">
+                </container>
+            </section>
+        
+            <footer> <p>Alessndro 2022</p></footer>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
+
